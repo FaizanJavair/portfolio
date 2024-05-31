@@ -50,13 +50,17 @@ function Page({ currentPage, meta: { title, desc }, children }: PageProps) {
         />
 
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="https://faizanjavair.netlify.app/" />
+        <meta
+          property="twitter:url"
+          content="https://faizanjavair.netlify.app/"
+        />
         <meta property="twitter:title" content={pageTitle} />
         <meta property="twitter:description" content={desc} />
         <meta
           property="twitter:image"
           content="https://faizanjavair.netlify.app/misc/og.png"
         ></meta>
+        <meta name="theme-color" content="#0f0f0f" />
         {/* <script
           async
           src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
