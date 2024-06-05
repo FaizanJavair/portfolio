@@ -4,6 +4,22 @@ import { Project } from "types";
 const projects: Project[] = [
   {
     id: 0,
+    title: "Pulsyte",
+    desc: "One page website for a web agency made on react and advanced motion.",
+    img: "/static/projects/pulsyte.png",
+    link: "https://pulsyte.com/",
+    tags: [
+      "HTML",
+      "CSS",
+      "Tailwind CSS",
+      "React",
+      "ThreeJS",
+      "EmailJS",
+      "Framer Motion",
+    ],
+  },
+  {
+    id: 0,
     title: "Socializze",
     desc: "Social Media Platform wher you can post, make friends and chat.",
     img: "/static/projects/social-media.png",
